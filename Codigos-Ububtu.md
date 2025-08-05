@@ -1,12 +1,11 @@
 <h1> Códigos do Ubuntu </h1>
 
 - <strong>sudo rebbot </strong> <br>
-reinicia o Ubuntu
+  Reinicia o Ubuntu.
 - <strong>sudo apt update </strong> <br>
-baixa as atualizações para o Ububtu
+  Baixa as atualizações para o Ububtu.
 - <strong>sudo apt upgrade </strong> <br>
-Instala as atualizações
-
+  Instala as atualizações.
 - <strong>sudo update && sudo upgrade </strong> <br>
-faz as duas coisas de uma vez
+  Faz as duas coisas de uma vez.
 
