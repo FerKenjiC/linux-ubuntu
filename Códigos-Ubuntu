@@ -1,0 +1,11 @@
+<h1> Códigos do Ubuntu </h1>
+
+- sudo rebbot
+reinicia o Ubuntu
+- sudo apt update
+baixa as atualizações para o Ububtu
+- sudo apt upgrade
+Instala as atualizações
+
+- sudo update && sudo upgrade
+faz as duas coisas de uma vez
