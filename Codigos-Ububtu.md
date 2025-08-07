@@ -22,6 +22,6 @@
 - <strong>sudo ./VBoxLinuxAdditions.run</strong> <br>
   Executa o aplicativo deponível no diretório que acessou e instala os recursos.
 - <strong>lsmod | grep vbox</strong> <br>
-  - lsmod: Listar módulos carregados no Kernel.
-  - grep: funciona como um filtro para pesquisar apenas as linhas que contenham o texto que deseja pesquisar (nesse caso, vbox).
-  - vbox: prefixo que inicia normalmente os nomes dos módulos do VirtualBox.
+  - <strong>lsmod:</strong> Listar módulos carregados no Kernel.
+  - <strong>grep:</strong> funciona como um filtro para pesquisar apenas as linhas que contenham o texto que deseja pesquisar (nesse caso, vbox).
+  - <strong>vbox:</strong> prefixo que inicia normalmente os nomes dos módulos do VirtualBox.
