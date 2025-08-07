@@ -1,9 +1,9 @@
-<h1> Códigos do Ubuntu </h1>
+<h1>Códigos do Ubuntu</h1>
 
 <h3>Observação:</h3>
   Comando <strong>sudo</strong> concede privilégio de admistrador <br>
   Comando <strong>apt:</strong> gerenciador de pacotes 
-
+  
 - <strong>Ctrl + Alt + T </strong> <br>
   Abre o Terminal.
 - <strong>sudo rebbo </strong> <br>
