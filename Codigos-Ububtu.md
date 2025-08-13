@@ -52,12 +52,17 @@
   - Acessa o diretório da pasta compartilhada.
 - <strong>cd ../</strong> <br>
   - Voltar no diretório, na pasta anterior
-- <strong></strong> <br>
-  -
-- <strong></strong> <br>
-  -
-- <strong></strong> <br>
-  -
+- <strong>ls</strong> <br>
+  - Lista os arquivos na pasta.
+- <strong>echo "Mensagem que você quer adicionar" > (nome do arquivo "arquivo_teste" e não esquecer da extensão ".txt")</strong> <br>
+  - Cria uma arquivo na pasta compartilhada.
+- <strong>cat + "nome do arquivo de texto"</strong> <br>
+  - Permite ler o que está no arquivo de texto.
+
+- Após isso utilizamos um arquivo padrão do Ubunto para abrir o arquivo e edita-lo.
+  - nano (nome do arquivo) = Usar Ctrl + os guias que tem no próprio nano.
+- Foi instalado um segundo aplicativo padrão do Ubunto para abrir o arquivo e edita-lo
+  - digite "vim" sem estar no diretório da pasta compartilhada e aparecerá os comandos de instalação.
 ---
 - Dentro do diretírio: cd /media/sf_VirtualBox_PastaCOmpartilhada
 - <strong>ls -l</strong> <br>
