@@ -61,8 +61,14 @@
 
 - Após isso utilizamos um arquivo padrão do Ubunto para abrir o arquivo e edita-lo.
   - nano (nome do arquivo) = Usar Ctrl + os guias que tem no próprio nano.
-- Foi instalado um segundo aplicativo padrão do Ubunto para abrir o arquivo e edita-lo
+- Foi instalado um segundo aplicativo padrão do Ubunto para abrir o arquivo e edita-lo.
   - digite "vim" sem estar no diretório da pasta compartilhada e aparecerá os comandos de instalação.
+- <strong>touch "nome_do_arquivo".sh</strong>
+    - cria um arquivo em branco.
+- <strong>vim "nome_do_arquivo".sh</strong>
+  - Para utilizar o editor vim para editar o arquivo criado.
+- Dentro do editor vim, aperte INSERT par a digitar dentro do arquivo.
+- Para salvar, pressione ESC + SHIFT + :wq.
 ---
 - Dentro do diretírio: cd /media/sf_VirtualBox_PastaCOmpartilhada
 - <strong>ls -l</strong> <br>
@@ -78,15 +84,46 @@
   - root = é o usuário proprietário.
   - "alunos" = é o grupo proprietário.
   - 4096 = é o tamanho do arquivo.
+- <strong>Nomenclatura para qualquer distribuição Linux</strong>
+  - É dividido em 3 blocos, sendo que o primeiro digito "d" referece ao diretório.
+    - d rwx rwx rwx (se ouver um "-" significa que não possui permissão.)
+    - 1ª coluna define a permissão do usuário proprietário.
+    - 2ª coluna define a permissão do grupo proprietário.
+    - 3ª coluna define a permissão de outros (isto é, não são o usuário nem fazem parte do grupo).
 - <strong>sudo addgroup (nome) </strong>.
   - cria um grupo.
 - Adicionar um usuário a um grupo no SO.
   - <strong>sudo adduser $USER (nome do grupo) </strong> (Ubunto/ Debian Desktop)
   - <strong>sudo usermod -aG (nome do usuário) nome_do_grupo1 nome _do_grupo2</strong> <br>
-      Utilizar essa opção pois ele adiciona o usuário ao novo grupo, mas mantem o mesmo nos grupos que ele já integrava.
+      - Utilizar essa opção pois ele adiciona o usuário ao novo grupo, mas mantem o mesmo nos grupos que ele já integrava.
   - <strong>sudo usermod -aG nome_do_grupo1 nome_do_grupo2 $USER</strong>
 - <strong>sudo mkdir home/(nome do diretório)</strong>
   - Para criar um novo diretório
 - <strong>sudo chown :nome_do_grupo nome_da_pasta</strong> <br>
   - Para mudar o grupo proprietário de um diretório
-- 
+- <strong>cat /etc/group</strong>
+  - Para listar todos os grupos existentes.
+- <strong>groups</strong>
+  - Lista todos os grupos que o usuário esté inserido.
+---
+CHMOD
+---
+<img src="https://img.vivaolinux.com.br/imagens/dicas/comunidade/Selecao_003.jpeg"> <br>
+
+- <strong>sudo chmod (nº que habilita as permissões) (nome da pasta)</strong>
+  - Permite determinar as permissões dos usuários, grupos e outros.
+- <strong>chmod 750</strong>
+   - Uusuário proprietário tem todas as permissões.
+   - Grupo tem permissão de leitura e execução.
+   - Outros não possuem permissão.
+    
+- <strong>chmod 777</strong>
+   - Usuário proprietário tem todas as permissões.
+   - Grupo tem todas as permissões.
+   - Outros tem todas as permissões.
+
+- <strong>chmod 755</strong>
+   - Usuário proprietário tem todas as permissões.
+   - Grupo tem permissão de leitura e execução.
+   - Outros tem permissão de leitura e execução.
+---
