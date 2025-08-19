@@ -70,7 +70,11 @@
 - Dentro do editor vim, aperte INSERT par a digitar dentro do arquivo.
 - Para salvar, pressione ESC + SHIFT + :wq.
 ---
-- Dentro do diretírio: cd /media/sf_VirtualBox_PastaCOmpartilhada
+- Dentro do diretírio: cd /media/sf_VirtualBox_PastaCOmpartilhada,
+- <strong>ls</strong> <br>
+  - ele irá listar o conteúdo desse diretório.
+ - <strong>ls -l -r</strong> <br>
+   - reverte a listagem.
 - <strong>ls -l</strong> <br>
   - lista o arquivos com mais especificações, como data e hora da última alteração feita no arquivo. <br>
   ex:
@@ -105,6 +109,8 @@
   - Para listar todos os grupos existentes.
 - <strong>groups</strong>
   - Lista todos os grupos que o usuário esté inserido.
+- <strong>pwd</strong>
+  - imprime o diretório de trabalho, sua localização atual dentro do sistema de arquivos.
 ---
 CHMOD
 ---
@@ -127,3 +133,10 @@ CHMOD
    - Grupo tem permissão de leitura e execução.
    - Outros tem permissão de leitura e execução.
 ---
+O Comando su
+---
+- O comando <strong>su</strong> permite que atuemos temporariamente como usuário root, com privilegios admistrativos.
+- <strong>exit</strong>
+  - Sai so usuário temporario root.
+- Para evitar a execução de comandos sensíveis, configuramos o comando Locomotiva Steam, o comando <strong>sl</strong>, para exigir acesso administrativo. Se o comando for executado como usuário padrão, ele falhará
+
