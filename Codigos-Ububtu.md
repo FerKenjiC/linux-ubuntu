@@ -104,7 +104,8 @@
 - <strong>sudo mkdir home/(nome do diretório)</strong>
   - Para criar um novo diretório
 - <strong>sudo chown :nome_do_grupo nome_da_pasta</strong> <br>
-  - Para mudar o grupo proprietário de um diretório
+  - Para mudar o grupo proprietário de um diretório.
+  - Podemos executar o mesmo comando sem o "sudo", porem precisamos de acesso adiministrativo.
 - <strong>cat /etc/group</strong>
   - Para listar todos os grupos existentes.
 - <strong>groups</strong>
